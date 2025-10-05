@@ -1,14 +1,19 @@
 # Wordle-Indonesia
-An open-source, Indonesian-language adaptation inspired by the original Wordle game by Josh Wardle. This project is for educational and non-commercial purposes.
+
+An open-source, Indonesian-language adaptation inspired by the original Wordle game by Josh Wardle.  
+This project is created for **educational and non-commercial purposes**.
 
 ---
 
 ## 📖 Description
 
-**Indonesian Wordle** is a 5-letter word guessing web game that uses **Bahasa Indonesia vocabulary**.  
-Players must guess the correct 5-letter word within limited attempts — similar to the classic Wordle, but localized for Indonesian learners.  
+**Wordle Indonesia** is a 5-letter word guessing web game that uses **Bahasa Indonesia vocabulary**.  
+Players must guess the correct 5-letter word within limited attempts — similar to the classic **Wordle**, but localized for Indonesian learners.
 
-This project was developed for educational purposes, focusing on learning **JavaScript modular programming**, **DOM manipulation**, and **AI-assisted development workflows** using **IBM Granite**.
+This project was developed for educational purposes, focusing on learning **JavaScript modular programming**, **DOM manipulation**, and **AI-assisted development workflows** using **IBM Granite**.  
+It has been deployed using **Vercel** for ease of access and demonstration.
+
+🎮 **Play here:** [Wordle Indonesia on Vercel](https://wordle-indonesia-sooty.vercel.app)
 
 ---
 
@@ -16,34 +21,45 @@ This project was developed for educational purposes, focusing on learning **Java
 
 | Technology | Purpose |
 |-------------|----------|
-| **HTML5** | Structure of the webpage |
-| **CSS3** | Visual styling and layout |
-| **JavaScript (ES6)** | Game logic and interactivity |
-| **IBM Granite (AI Assistant)** | Used during development to accelerate coding, improve documentation, and suggest feature enhancements |
+| **HTML5** | Provides the structure and layout of the web page |
+| **CSS3** | Handles styling, colors, and responsive layout |
+| **JavaScript (ES6)** | Manages the main gameplay logic and UI interaction |
+| **IBM Granite (AI Assistant)** | Used during development to accelerate coding, documentation, and improvement suggestions |
+| **Vercel** | Used to deploy and host the final website |
 
 ---
 
 ## 🧩 Features
 
-- 🎯 **5-letter Indonesian word guessing gameplay**
-- 🔤 **Word dictionary** (`words.js`) with curated Indonesian words
-- ⌨️ **On-screen virtual keyboard** for user input
-- 💬 **Interactive feedback messages** (correct, misplaced, or wrong letters)
-- 🔁 **Reset button** to start a new round
-- 🧠 **Modular codebase** (`main.js`, `game.js`, `keyboard.js`, `words.js`)
+- 🎯 **5-letter Indonesian word guessing gameplay**  
+- 🔤 **Curated word dictionary** (`words.js`) using Bahasa Indonesia vocabulary  
+- ⌨️ **On-screen virtual keyboard** for mobile and touch devices  
+- 💬 **Interactive feedback messages** (correct, misplaced, or incorrect letters)  
+- 🔁 **Reset button** to restart the game instantly  
+- 🧠 **Modular JavaScript codebase** (`main.js`, `game.js`, `keyboard.js`, `words.js`)  
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone or Download the Repository
+### 1️⃣ Play Online (Recommended)
+
+The game is deployed on Vercel and available to play at:  
+👉 [Play Wordle Indonesia](https://wordle-indonesia-sooty.vercel.app)
+
+---
+
+### 2️⃣ Run Locally (For Developers)
+
+If you want to explore or customize the source code:
 
 ```bash
-git clone https://github.com/username/indonesian-wordle.git
-cd indonesian-wordle
+git clone https://github.com/username/wordle-indonesia.git
+cd wordle-indonesia
 ```
 
-Or simply download all files:
+Or simply download all project files:
+
 ```
 index.html
 styles.css
@@ -53,55 +69,36 @@ words.js
 main.js
 ```
 
----
-
-### 2️⃣ Open the Game in Your Browser
-
-No server is required — it’s 100% client-side.  
-Just open `index.html` in your preferred browser:
-
-- Right-click → “Open with Browser”, or  
-- Drag and drop into your browser window.
-
----
-
-### 3️⃣ Play the Game 🎮
-
-- Type or click on-screen letters to guess a 5-letter word.  
-- Press **Enter** to submit your guess.  
-- See color-coded feedback for each letter:  
-  - 🟩 Green → correct position  
-  - 🟨 Yellow → correct letter, wrong position  
-  - ⬜ Gray → not in the word  
-- Click **“Reset 🔁”** to play again.
+Then open `index.html` in your browser — no server setup needed (client-side only).
 
 ---
 
 ## 🤖 AI Support Explanation (IBM Granite)
 
-This project used **IBM Granite**, an **AI-assisted development model**, during the **development phase only** — not in the final product.
+This project utilized **IBM Granite**, an **AI-assisted development model**, exclusively during the **development phase** — not in the final product.
 
-IBM Granite was used to:
+**IBM Granite was used to:**
+- Generate and optimize code structure  
+- Suggest improvements to gameplay logic and user experience  
+- Provide documentation templates and consistency checks  
+- Assist in debugging and performance optimization  
 
-- **Generate code structure** and suggest modular separation (`game.js`, `keyboard.js`, `words.js`)
-- **Improve documentation clarity** (README and inline comments)
-- **Suggest better gameplay logic and UI improvements**
-- **Perform error checking and debugging recommendations**
-
-⚠️ **Note:**  
-IBM Granite **is not part of the deployed web app**. It only assisted developers during the **code creation and documentation stages**.
+⚠️ **Important:**  
+IBM Granite **is not part of the final web app**. It only supported developers during **coding and documentation**.
 
 ---
 
 ## 📜 License
 
-This is a **non-commercial, educational project** inspired by *Wordle* (originally created by Josh Wardle).  
-All rights to the original game concept belong to its creator.  
-This Indonesian version is fan-made and used for learning and research.
+This is a **non-commercial, educational project** inspired by *Wordle*, originally created by **Josh Wardle**.  
+All rights to the original concept belong to its creator.  
+This Indonesian version is a **fan-made adaptation** intended for learning and experimentation.
 
 ---
 
 ## 👩‍💻 Author
 
 **Naqila Syaniwa**  
-Developed with curiosity and learning spirit — combining language, programming, and AI tools.
+Developed with curiosity and a passion for learning — combining language, programming, and AI tools.
+
+---
